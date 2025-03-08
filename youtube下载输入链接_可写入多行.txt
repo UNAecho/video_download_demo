@@ -1,0 +1,7 @@
+# 在下方输入YouTube视频链接，每行一个链接(前面不要加#号，不然此行会被忽略)，例如:
+# https://www.youtube.com/watch?v=xxxxx
+# https://www.youtube.com/watch?v=yyyyy
+# https://www.youtube.com/watch?v=zzzzz
+
+https://www.youtube.com/shorts/u6uiJOc3bFQ
+https://www.youtube.com/watch?v=yfCPi33Pv2U&ab_channel=%E9%9B%B7%E9%B3%A5ThunderBird
