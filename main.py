@@ -8,9 +8,6 @@ download_path = r"D:\\Youtube下载文件夹"  # 可以修改为你想要的路�
 # 确保下载文件夹存在
 os.makedirs(download_path, exist_ok=True)
 
-# 获取桌面路径用于存放url文件
-desktop_path = os.path.join(os.environ['USERPROFILE'], 'Desktop')
-
 # 获取当前脚本所在目录
 current_dir = os.path.dirname(os.path.abspath(__file__))
 
