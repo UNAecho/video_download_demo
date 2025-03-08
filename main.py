@@ -20,7 +20,7 @@ ydl_opts = {
 
 def download_videos():
     # 读取url文件（放在当前脚本目录下）
-    url_file_path = os.path.join(current_dir, "youtube下载输入链接_可写入多行.txt")
+    url_file_path = os.path.join(current_dir, "youtube_urls.txt")
     
     if not os.path.exists(url_file_path):
         # 创建示例文件
