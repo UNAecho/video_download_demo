@@ -56,7 +56,6 @@ def download_videos():
                 print(f"下载失败: {str(e)}")
 
     print("\n所有下载任务完成！")
-    input("按回车键退出...")
 
 if __name__ == "__main__":
     download_videos()
