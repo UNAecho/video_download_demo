@@ -3,7 +3,7 @@ import os
 from pathlib import Path
 
 # 自定义下载路径
-download_path = r"D:\\Youtube下载文件夹"  # 可以修改为你想要的路径
+download_path = os.path.join("D:", "Youtube下载文件夹")  # 使用 os.path.join 来处理路径
 
 # 确保下载文件夹存在
 os.makedirs(download_path, exist_ok=True)
