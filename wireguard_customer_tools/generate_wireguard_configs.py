@@ -36,7 +36,7 @@ def main():
         'Peer': {
             'PublicKey': 'your_public_key_placeholder',
             'AllowedIPs': '0.0.0.0/0',
-            'endpoint_base': '192.168.1.1',
+            'endpoint_base': '192.168.1',
             'port': '51820',
             'start_ip': 1,
             'end_ip': 3
